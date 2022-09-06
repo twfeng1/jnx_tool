@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_Rg.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_It.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_Th.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_Lt.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_Md.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_MdIt.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_Bd.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_BdIt.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Goldman Sans'), url('../fonts/GoldmanSans_Blk.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Goldman Sans Condensed'), url('../fonts/GoldmanSansCd_Rg.woff') format('woff');
+}
+@font-face {
+    font-family: 'Goldman Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Goldman Sans Condensed'), url('../fonts/GoldmanSansCd_Bd.woff') format('woff');
+}
+
