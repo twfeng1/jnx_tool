@@ -2,15 +2,14 @@ const {formatTS,  formatTIF, formatMessageType,formatDescription,formatMessageTy
 
 const DEFAULT_COLUMNS = [
 "Timestamp",
-"OrderToken",
   "OrderbookId",
 "BuySellIndicator",
+  "Price",
+"Quantity",
+  "OrderToken",
  "ExistingOrderToken",
 "ReplacementOrderToken",
 "PreviousOrderToken",
-
-"Price",
-"Quantity",
 "TimeinForce",
 "OrderNumber",
 
