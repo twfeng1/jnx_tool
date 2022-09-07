@@ -250,7 +250,7 @@ function groupBy_ouch_order_token (wEntries){
      //   ouch_msg.wLine = (idx+1);
      //   ouch_msg.id = (idx+1);
 
-        if (!_.has (ouch_msg,'wRootOrder')){ ouch_msg.wRootOrder="UNGROUPED"}
+        if (!_.has (ouch_msg,'wRootOrder')){ ouch_msg.wRootOrder="ADMIN"}
         return ouch_msg;
 
     }
