@@ -92,6 +92,16 @@ function formatMessageTypeCSS(cellvalue, rowItem,rowid, columnid ){
             break;
         case rowItem['PacketType']==='S' && rowItem['MessageType']==='J' : return 'CSS_MESSAGETYPE_EXECUTED'
             break;
+        case rowItem['PacketType']==='S' && rowItem['MessageType']==='S' : return 'CSS_MESSAGETYPE_SYSTEMEVENT'
+            break;
+        case rowItem['PacketType']==='A' : return 'CSS_PACKETTYPE_LOGONACCEPTED'
+            break;
+        case rowItem['PacketType']==='L' : return 'CSS_PACKETTYPE_LOGONREQUEST'
+            break;
+        case rowItem['PacketType']==='+' : return 'CSS_PACKETTYPE_DEBUG'
+            break;
+        case rowItem['PacketType']==='O' : return 'CSS_PACKETTYPE_LOGOUT'
+            break;
         default : return;
     }
 
