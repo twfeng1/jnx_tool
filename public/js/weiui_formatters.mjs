@@ -27,7 +27,7 @@ function formatTS(nsecs){
     let  formatted_time = dt.getUTCHours()+':'+ _.padStart(dt.getUTCMinutes(),2,"0") +":"
         + _.padStart(dt.getUTCSeconds(),2,"0")+"."
         + _.padStart(dt.getUTCMilliseconds(),3,"0")
-        + " T " +dtInt%1000000n + "";
+        + " T " + (dtInt%1000000n).toString().padStart(6,'0') + "";
     return ( dtInt)+ ' ('+formatted_time+')';
     //return '000wei'
 }
